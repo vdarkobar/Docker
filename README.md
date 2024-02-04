@@ -13,7 +13,7 @@ Add free space to cloned VM:
 clear
 sudo apt -y install git && \
 RED='\033[0;31m'; NC='\033[0m'; echo -ne "${RED}Enter directory name: ${NC}"; read NAME; mkdir -p "$NAME"; \
-cd "$NAME" && git clone https://github.com/vdarkobar/Bastion.git . && \
+cd "$NAME" && git clone https://github.com/vdarkobar/Docker.git . && \
 chmod +x setup.sh && \
 rm README.md && \
 ./setup.sh
