@@ -5,7 +5,7 @@
 # Docker
 Install Docker and Docker compose (v2)
 
-### Add free space to cloned VM:  
+Add free space to cloned VM:  
 > *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
   
 ### *Run this command*:
