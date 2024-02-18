@@ -9,7 +9,7 @@ Install Docker and Docker compose (v2)
 Clone <a href="https://github.com/vdarkobar/DebianTemplate/blob/main/README.md#debian-template">Template</a>, SSH in using <a href="https://github.com/vdarkobar/Home-Cloud/blob/main/shared/Bastion.md#bastion">Bastion Server</a>  
 
   
-Add free space to cloned VM:  
+Don't forget to add free space to cloned VM:  
 > *VM Name > Hardware > Hard Disk > Disk Action > Resize*  
   
 ### *Run this command*:
