@@ -62,16 +62,6 @@ if [[ "$choice" == [yY] ]]; then
   echo
   sleep 0.5 # delay for 0.5 seconds
 
-  echo -e "${GREEN}Securind Docker${NC}"
-  # Specify the file and the new line to add
-  file="/etc/default/docker"
-  new_line='DOCKER_OPTS="--iptables=false"'
-  # Append the new line to the file with sudo
-  echo "${new_line}" | sudo tee -a "${file}" >/dev/null
-  echo -e "${GREEN}Done.${NC}"
-  echo
-  sleep 0.5 # delay for 0.5 seconds
-
   # Execute sixth command and echo -e message when done
   echo -e "${GREEN}Verify that the Docker Engine installation is successful${NC}"
   sudo docker --version && docker compose version
