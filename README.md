@@ -2,7 +2,7 @@
   <a href="https://github.com/vdarkobar/Home-Cloud#self-hosted-cloud">Home</a>
 </p>  
   
-# Docker
+# Docker / Podman
 Install Docker and Docker compose (v2)  or Podman and Podman compose
 
   
